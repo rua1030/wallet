@@ -54,7 +54,7 @@ Sigue estos pasos para instalar y ejecutar el proyecto localmente:
 Clona este repositorio en tu máquina local:
 
 ```bash
-git clone https://github.com/tu-usuario/dapp.git
+git clone https://github.com/rua1030/wallet.git
 ```
 
 ### 2. **Instalar Dependencias**
