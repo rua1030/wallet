@@ -31,7 +31,7 @@ export const App: React.FC = () => {
     setLoading(true);
     try {
       await updateText(newText);
-      await fetchText(); // Actualiza el texto después de la actualización
+      await fetchText();
       toast.success("Texto actualizado exitosamente!");
     } catch (error: any) {
       const errorMessage = error.message || "Error al actualizar el texto.";

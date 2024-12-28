@@ -76,7 +76,6 @@ Crea un archivo `.env` en la raíz del proyecto y agrega las variables de entorn
 
 ```bash
 NEXT_PUBLIC_CLIENT_ID=0x31Ec3D576F25B503A09b9564Ac23E48a73f6939c
-
 ```
 
 Asegúrate de reemplazar los valores de ejemplo con los tuyos.

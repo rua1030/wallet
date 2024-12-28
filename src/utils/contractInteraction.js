@@ -39,7 +39,6 @@ export async function initializeContract() {
   }
 }
 
-// Obtener texto desde el contrato
 export async function getText() {
   try {
     const provider = new ethers.providers.JsonRpcProvider("https://api.avax-test.network/ext/bc/C/rpc");
@@ -58,7 +57,7 @@ export const updateText = async (newText) => {
     const contract = await initializeContract();
     const signer = contract.signer;
 
-    // Verificar saldo del usuario
+  
     const balance = await signer.getBalance();
     const minimumBalance = ethers.utils.parseEther("0.01"); // Cambia el valor según lo necesario
 
